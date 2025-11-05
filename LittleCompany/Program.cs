@@ -10,8 +10,7 @@
             Console.WriteLine("Det här är en personalregistering.");
 
             // Loop för att registrera fler än en anställd
-            do
-
+            do 
             {
                 Console.WriteLine("\nAnge namn på den anställda: ");
                 string name = Console.ReadLine();
