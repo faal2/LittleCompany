@@ -25,10 +25,10 @@
                 Console.WriteLine("Du har registrerat en anställd med namn: " + personal.name + " och lön: " + personal.salary);
 
                 Console.WriteLine("Vill du registrera en till anställd? (j/n)");
-                string answer = Console.ReadLine();
+                char answer = Convert.ToChar(Console.ReadLine());
 
                 // Avsluta loopen om användaren inte vill registrera fler anställda
-                if (answer.ToLower() != "j")
+                if (answer != 'j')
                 {
                     break; 
                 }
