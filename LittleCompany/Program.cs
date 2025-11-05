@@ -16,7 +16,7 @@
                 string name = Console.ReadLine();
 
                 Console.WriteLine("Ange lön på den anställda: ");
-                int salary = Convert.ToInt32(Console.ReadLine());
+                int salary = int.Parse(Console.ReadLine());
 
                 // Skapar en personalobjekt och lägger till i listan
                 Personal personal = new Personal(name, salary);
